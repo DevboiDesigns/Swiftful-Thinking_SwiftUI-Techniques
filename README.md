@@ -1,5 +1,19 @@
 # Advanced SwiftUI techniques & tricks
 
+### Setup
+
+- replace the main view with each sub lessons main view to run
+
+```swift
+struct AdvancedSwiftUITechniquesApp: App {
+    var body: some Scene {
+        WindowGroup {
+            MachedGeoEffectTwo()
+        }
+    }
+}
+```
+
 ## Custom View Modifiers
 
 - [Files](AdvancedSwiftUITechniques/Lessons/ViewModifiers)
